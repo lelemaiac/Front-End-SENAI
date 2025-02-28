@@ -1,8 +1,8 @@
 .card img{
-    width: 30%;
+    width: 40%;
 }
 
-nav, body, table{
+nav, body{
     background-color: rgba(250, 202, 210, 0.55);
     margin: 0;
     box-sizing: border-box;
@@ -14,13 +14,17 @@ footer{
 
 .img_tab{
     height: 90px;
-}
-
-.minha_img{
-    height: 100%;
-    width: 100%;
+    border-radius: 50px;
 }
 
 .minha-btn{
     background-color: deeppink;
+}
+
+img{
+    border-radius: 20px;
+}
+
+.logo{
+    border-radius: 0px;
 }

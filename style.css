@@ -2,12 +2,25 @@
     width: 30%;
 }
 
-nav, body{
-    background-color: rgba(250, 202, 210, 0.18);
+nav, body, table{
+    background-color: rgba(250, 202, 210, 0.55);
     margin: 0;
     box-sizing: border-box;
 }
 
 footer{
-    background-color: rgba(241, 133, 152, 0.75);
+    background-color: rgba(241, 133, 152, 0.8);
+}
+
+.img_tab{
+    height: 90px;
+}
+
+.minha_img{
+    height: 100%;
+    width: 100%;
+}
+
+.minha-btn{
+    background-color: deeppink;
 }

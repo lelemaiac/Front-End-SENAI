@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -45,42 +45,60 @@
     </div>
 </nav>
 
-<div class="d-flex flex-row mt-5">
-    <div class="text-center w-100 d-flex flex-column justify-content-center align-items-center">
-        <h1>Bem-vindo à Pandora</h1>
-        <p>Aqui, cada joia é uma obra-prima feita para celebrar a sua beleza e estilo.<br>
-            Explore nossas peças exclusivas e encontre a joia perfeita para brilhar em todos os momentos.</p>
-    </div>
-    <div class="image w-100 d-flex justify-content-center">
-        <img src="image.png" alt="Exemplo de imagem" width= 60%">
-    </div>
+<div class="container mt-5">
+    <form class="row g-3">
+        <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Senha</label>
+            <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+            <label for="inputAddress" class="form-label">Endereço</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-12">
+            <label for="inputAddress2" class="form-label">Telefone</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+            <label for="inputCity" class="form-label">Cidade</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+            <label for="inputState" class="form-label">Estado</label>
+            <select id="inputState" class="form-select">
+                <option selected>São Paulo</option>
+                <option>Rio Grande do Sul</option>
+                <option>Rio de Janeiro</option>
+                <option>Distrito Federal</option>
+                <option>Minas Gerais</option>
+            </select>
+        </div>
+        <div class="col-md-2">
+            <label for="inputZip" class="form-label">CEP</label>
+            <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                    Enviar ofertas
+                </label>
+            </div>
+        </div>
+        <div class="col-12">
+            <button type="submit" class="minha-btn btn">Entrar</button>
+        </div>
+    </form>
+
 </div>
 
-<div class="row justify-content-around mt-4 mb-4">
-
-    <div class="card col-3 justify-content-center align-items-center">
-        <img class="p-2" src="img_2.png" alt="Imagem do Card 1">
-        <h3 class="text-center p-2">Anel</h3>
-        <p class="text-center p-2">Liga única de metais com revestimento de ouro rosa 14k
-            / Pedras mistas / Rosa.</p>
-    </div>
-    <div class="card col-3 justify-content-center align-items-center">
-        <img class="p-2" src="img_3.png" alt="Imagem do Card 2">
-        <h3 class="text-center">Bracelete de coração cravejado</h3>
-        <p class="text-center">Pandora rígida com fecho de coração <br> cravejado com microzircônias</p>
-    </div>
-    <div class="card col-3 justify-content-center align-items-center">
-        <img class="p-2" src="img_4.png" alt="Imagem do Card 3">
-        <h3 class="text-center">Colar de coração</h3>
-        <p class="text-center">Mostre seu amor pelo design de joias clássicas <br>com o
-            Colar Coração Aberto Em Tramas. Com acabamento à mão em prata
-            de lei, esta peça é <br> inspirada na seleção icônica de braceletes
-            de corrente de cobra da Pandora Moments.</p>
-    </div>
-</div>
 
 <!-- Rodapé -->
-<footer class="text-center text-light">
+<footer class="text-center text-light mt-5">
     <a class="text-light" href="https://www.facebook.com/?locale=pt_BR"><i class="bi bi-facebook m-3"></i></a>
     <a class="text-light" href="https://www.instagram.com/"><i class="bi bi-instagram m-3"></i></a>
     <a class="text-light" href="https://web.whatsapp.com/"><i class="bi bi-whatsapp m-3"></i></a>
@@ -90,5 +108,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+
 </body>
 </html>

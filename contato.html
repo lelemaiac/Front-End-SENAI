@@ -48,28 +48,28 @@
 <div class="container mt-5">
     <form class="row g-3">
         <div class="col-md-6">
-            <label for="inputEmail4" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail4">
+            <label id="color_email" onmousedown="alimentar_email()" class="form-label">Email</label>
+            <input onmousedown="color_email()" type="email" class="form-control" id="input_email">
         </div>
         <div class="col-md-6">
-            <label for="inputPassword4" class="form-label">Senha</label>
-            <input type="password" class="form-control" id="inputPassword4">
+            <label id="color_senha" onmousedown="alimentar_senha()" class="form-label">Senha</label>
+            <input onmousedown="color_senha()" type="password" class="form-control" id="input_senha">
         </div>
         <div class="col-12">
-            <label for="inputAddress" class="form-label">Endereço</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            <label id="color_endereco" onmousedown="alimentar_endereco()" class="form-label">Endereço</label>
+            <input onmousedown="color_endereco()" type="text" class="form-control" id="input_endereco" placeholder="1234 Main St">
         </div>
         <div class="col-12">
-            <label for="telefone" class="form-label">Telefone</label>
-            <input type="text" class="form-control" id="telefone" placeholder="(xx)xxxxx-xxxx">
+            <label id="color_telefone" onmousedown="alimentar_telefone()" class="form-label">Telefone</label>
+            <input onmousedown="color_telefone()" type="text" class="form-control" id="input_telefone" placeholder="(xx)xxxxx-xxxx">
         </div>
         <div class="col-md-6">
-            <label for="inputCity" class="form-label">Cidade</label>
-            <input type="text" class="form-control" id="inputCity">
+            <label id="color_cidade" onmousedown="alimentar_cidade()" class="form-label">Cidade</label>
+            <input onmousedown="color_cidade()" type="text" class="form-control" id="input_cidade">
         </div>
         <div class="col-md-4">
-            <label for="inputState" class="form-label">Estado</label>
-            <select id="inputState" class="form-select">
+            <label id="color_estado" class="form-label">Estado</label>
+            <select onmousedown="color_estado()" class="form-select">
                 <option selected>São Paulo</option>
                 <option>Rio Grande do Sul</option>
                 <option>Rio de Janeiro</option>
@@ -78,8 +78,8 @@
             </select>
         </div>
         <div class="col-md-2">
-            <label for="inputZip" class="form-label">CEP</label>
-            <input type="text" class="form-control" id="inputZip">
+            <label id="color_cep" onmousedown="alimentar_cep()" class="form-label">CEP</label>
+            <input onmousedown="color_cep()" type="text" class="form-control" id="input_cep">
         </div>
         <div class="col-12">
             <div class="form-check">
@@ -93,6 +93,9 @@
             <button type="submit" class="minha-btn btn">Entrar</button>
         </div>
     </form>
+    <div class="col-12">
+        <button onclick="limparInput()" type="submit" class="minha-btn btn mt-2">Limpar</button>
+    </div>
 
 </div>
 
@@ -105,6 +108,8 @@
     <p>&copy; 2025 Meu Site. Todos os direitos reservados.</p>
 </footer>
 
+
+<script src="exemplo.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>

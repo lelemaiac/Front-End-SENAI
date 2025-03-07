@@ -101,4 +101,3 @@ function alimentar_cidade() {
 function alimentar_cep() {
     document.getElementById("input_cep").value = "CEP"
 }
-1

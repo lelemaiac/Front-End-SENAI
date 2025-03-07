@@ -39,43 +39,43 @@ function limparInput() {
 function color_email() {
     const color_email = document.getElementById("color_email")
 
-    color_email.style.color = "pink"
+    color_email.style.color = "white"
 }
 
 function color_senha() {
     const color_senha = document.getElementById("color_senha")
 
-    color_senha.style.color = "pink"
+    color_senha.style.color = "white"
 }
 
 function color_endereco() {
     const color_endereco = document.getElementById("color_endereco")
 
-    color_endereco.style.color = "pink"
+    color_endereco.style.color = "white"
 }
 
 function color_cidade() {
     const color_cidade = document.getElementById("color_cidade")
 
-    color_cidade.style.color = "pink"
+    color_cidade.style.color = "white"
 }
 
 function color_cep() {
     const color_cep = document.getElementById("color_cep")
 
-    color_cep.style.color = "pink"
+    color_cep.style.color = "white"
 }
 
 function color_telefone() {
     const color_telefone = document.getElementById("color_telefone")
 
-    color_telefone.style.color = "pink"
+    color_telefone.style.color = "white"
 }
 
 function color_estado() {
     const color_estado = document.getElementById("color_estado")
 
-    color_estado.style.color = "pink"
+    color_estado.style.color = "white"
 }
 
 function alimentar_email() {
@@ -101,3 +101,4 @@ function alimentar_cidade() {
 function alimentar_cep() {
     document.getElementById("input_cep").value = "CEP"
 }
+1

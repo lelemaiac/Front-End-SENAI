@@ -16,8 +16,6 @@ Por que é positivo?
 
  O Spotify oferece uma experiência fluida para ouvir músicas. Ele recomenda playlists personalizadas, tem busca eficiente, interface limpa e é fácil de usar, mesmo para iniciantes. Ele entende o que o usuário precisa e entrega isso de forma prática e agradável. 
 
- 
-
 3 – Qual o significado de UI? Cite um exemplo. 
 
 UI (User Interface) significa Interface do Usuário. É a parte visual com a qual o usuário interage: botões, ícones, cores, fontes, menus, etc. 
@@ -25,7 +23,6 @@ UI (User Interface) significa Interface do Usuário. É a parte visual com a qua
 Exemplo: 
 
  O botão de “curtir” no Instagram, com o ícone de coração, é um elemento de UI. Ele é facilmente reconhecível e transmite bem sua função. 
-
  
 
 4 – Encontre um exemplo real de um software que tenha um bom UI. Por que ele é positivo? 
@@ -92,3 +89,13 @@ Colorir os Cards de acordo com a categoria, mantendo todos na mesma paleta de co
 
 Ajustar o container do #list para manter os cards alinhados e com espaçamento uniforme. 
 
+ANTES:
+<img src="https://drive.google.com/file/d/1wiaHUmsitWZbdRZl9AKnQyldl493b5Wn/view?usp=sharing">
+
+DEPOIS:
+<img width="1919" height="777" alt="Captura de tela 2025-09-18 132331" src="https://github.com/user-attachments/assets/9dfcc473-b9fe-4c1f-936b-f1aac54a7959" />
+<img width="1897" height="905" alt="Captura de tela 2025-09-18 132356" src="https://github.com/user-attachments/assets/3d39c9c8-36f3-4b6c-87b6-a2b1a375cfa1" />
+
+As alterações foram: 
+UX- filtragem por categoria
+UI- botão de "Comprar", cores do card de acordo com a categoria e título do que está sendo exposto

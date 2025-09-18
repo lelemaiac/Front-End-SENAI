@@ -90,7 +90,8 @@ Colorir os Cards de acordo com a categoria, mantendo todos na mesma paleta de co
 Ajustar o container do #list para manter os cards alinhados e com espaçamento uniforme. 
 
 ANTES:
-<img src="https://drive.google.com/file/d/1wiaHUmsitWZbdRZl9AKnQyldl493b5Wn/view?usp=sharing">
+<img width="1917" height="912" alt="Captura de tela 2025-09-04 155814" src="https://github.com/user-attachments/assets/6556b051-e1cc-4682-b4a5-dc092ab14279" />
+
 
 DEPOIS:
 <img width="1919" height="777" alt="Captura de tela 2025-09-18 132331" src="https://github.com/user-attachments/assets/9dfcc473-b9fe-4c1f-936b-f1aac54a7959" />
